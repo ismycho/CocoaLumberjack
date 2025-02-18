@@ -617,6 +617,12 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Xcode/Lumberjack/CocoaLumberjack-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Pods/Headers/Public",
+					"$(SRCROOT)/Pods/CocoaLumberjack/Headers",
+					"\"$(SRCROOT)/Pods/CocoaLumberjack/Sources/CocoaLumberjackSwift/Supporting Files\"",
+				);
 				INFOPLIST_FILE = "$(SOURCE_ROOT)/Sources/$(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vpnservice.panda.CocoaLumberjack;
@@ -633,6 +639,12 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Xcode/Lumberjack/CocoaLumberjack-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Pods/Headers/Public",
+					"$(SRCROOT)/Pods/CocoaLumberjack/Headers",
+					"\"$(SRCROOT)/Pods/CocoaLumberjack/Sources/CocoaLumberjackSwift/Supporting Files\"",
+				);
 				INFOPLIST_FILE = "$(SOURCE_ROOT)/Sources/$(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vpnservice.panda.CocoaLumberjack;
@@ -651,7 +663,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Pods/Headers/Public",
-					"$(SRCROOT)/Pods/CocoaLumberjack/Headers",
+					"\"$(SRCROOT)/Pods/CocoaLumberjack/Sources/CocoaLumberjackSwift/Supporting Files\"",
 				);
 				INFOPLIST_FILE = "$(SOURCE_ROOT)/Sources/$(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
@@ -671,7 +683,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Pods/Headers/Public",
-					"$(SRCROOT)/Pods/CocoaLumberjack/Headers",
+					"\"$(SRCROOT)/Pods/CocoaLumberjack/Sources/CocoaLumberjackSwift/Supporting Files\"",
 				);
 				INFOPLIST_FILE = "$(SOURCE_ROOT)/Sources/$(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
