@@ -17,15 +17,15 @@ Pod::Spec.new do |spec|
 
   spec.name         = "CocoaLumberjack"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of CocoaLumberjack."
+  spec.summary = "A high-performance logging framework for Swift and Objective-C, supporting iOS, macOS, and tvOS."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "CocoaAsyncSocket is a fully asynchronous TCP and UDP socket communication library for macOS and iOS. 
+                       It supports IPv4, IPv6, TLS encryption, and provides powerful networking capabilities."
 
   spec.homepage     = "https://github.com/ismycho/CocoaLumberjack"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "12.0"
+  spec.platform     = { :ios => "12.0", :macos => "10.13" }
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -90,9 +90,9 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-
-  spec.source_files  = "Classes", "Classes/**/*.{h,m,swift}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.swift_version = "5.0"
+  spec.source_files  = "GitHub", "Sources/**/*.{h,m,swift}"
+  spec.exclude_files = "GitHub/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -130,7 +130,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  spec.requires_arc = true
+  spec.requires_arc = false
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
