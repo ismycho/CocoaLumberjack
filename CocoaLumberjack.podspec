@@ -64,11 +64,11 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  # spec.platform     = { :ios => "12.0", :macos => "10.10" }
+  #spec.platform     = { :ios => "12.0", :macos => "10.13" }
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "12.0"
-  spec.osx.deployment_target = "10.13"
+  #spec.ios.deployment_target = "12.0"
+  #spec.osx.deployment_target = "10.13"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
   # spec.visionos.deployment_target = "1.0"
