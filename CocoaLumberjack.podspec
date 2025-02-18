@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CocoaLumberjack"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary = "A high-performance logging framework for Swift and Objective-C, supporting iOS, macOS, and tvOS."
 
   # This description is used to generate tags and improve search results.
@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = { :ios => "12.0", :macos => "10.13" }
+  spec.platform     = { :ios => "12.0", :macos => "10.10" }
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
