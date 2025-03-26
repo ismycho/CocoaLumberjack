@@ -585,6 +585,11 @@
 		18F3BFE91A81E06E00692297 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Pods/CocoaLumberjack/Headers",
+					"$(SRCROOT)/Pods/Headers/Public",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRIVATE_HEADERS_FOLDER_PATH = "$(BUILT_PRODUCTS_DIR)/private";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack;
@@ -599,6 +604,11 @@
 		18F3BFEA1A81E06E00692297 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Pods/CocoaLumberjack/Headers",
+					"$(SRCROOT)/Pods/Headers/Public",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRIVATE_HEADERS_FOLDER_PATH = "$(BUILT_PRODUCTS_DIR)/private";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deusty.cocoalumberjack;
@@ -662,6 +672,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/Pods/CocoaLumberjack/Headers",
 					"$(SRCROOT)/Pods/Headers/Public",
 					"\"$(SRCROOT)/Pods/CocoaLumberjack/Sources/CocoaLumberjackSwift/Supporting Files\"",
 				);
@@ -682,6 +693,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(SRCROOT)/Pods/CocoaLumberjack/Headers",
 					"$(SRCROOT)/Pods/Headers/Public",
 					"\"$(SRCROOT)/Pods/CocoaLumberjack/Sources/CocoaLumberjackSwift/Supporting Files\"",
 				);
@@ -698,6 +710,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 435F03AB2174A39200A86B2D /* Module-Debug.xcconfig */;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Pods/Headers/Public",
+					"$(SRCROOT)/Pods/CocoaLumberjack/Headers",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
@@ -706,6 +723,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 435F03AA2174A39200A86B2D /* Module-Release.xcconfig */;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Pods/Headers/Public",
+					"$(SRCROOT)/Pods/CocoaLumberjack/Headers",
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
