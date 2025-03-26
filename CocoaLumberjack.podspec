@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "CocoaLumberjack"
-  spec.version      = "1.1.0"
+  spec.version      = "1.1.1"
   spec.summary = "A high-performance logging framework for Swift and Objective-C, supporting iOS, macOS, and tvOS."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/ismycho/CocoaLumberjack.git", :tag => s.version }
+  spec.source       = { :git => "https://github.com/ismycho/CocoaLumberjack.git", :tag => spec.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
