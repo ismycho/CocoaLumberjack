@@ -634,7 +634,7 @@
 					"\"$(SRCROOT)/Pods/CocoaLumberjack/Sources/CocoaLumberjackSwift/Supporting Files\"",
 				);
 				INFOPLIST_FILE = "$(SOURCE_ROOT)/Sources/$(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vpnservice.panda.CocoaLumberjack;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = YES;
@@ -656,7 +656,7 @@
 					"\"$(SRCROOT)/Pods/CocoaLumberjack/Sources/CocoaLumberjackSwift/Supporting Files\"",
 				);
 				INFOPLIST_FILE = "$(SOURCE_ROOT)/Sources/$(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vpnservice.panda.CocoaLumberjack;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = YES;
@@ -677,7 +677,7 @@
 					"\"$(SRCROOT)/Pods/CocoaLumberjack/Sources/CocoaLumberjackSwift/Supporting Files\"",
 				);
 				INFOPLIST_FILE = "$(SOURCE_ROOT)/Sources/$(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vpnservice.panda.CocoaLumberjackSwift;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = YES;
@@ -698,7 +698,7 @@
 					"\"$(SRCROOT)/Pods/CocoaLumberjack/Sources/CocoaLumberjackSwift/Supporting Files\"",
 				);
 				INFOPLIST_FILE = "$(SOURCE_ROOT)/Sources/$(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vpnservice.panda.CocoaLumberjackSwift;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = YES;
